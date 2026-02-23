@@ -26,4 +26,4 @@ Note: The "rank" (compression ratio) is calculated automatically during this pro
 The file was saved to your Main User Folder (Home).
 Requirements: torch and safeensors .
 
-The GPU version (lokr_convert_GPU.py) specifically supports MAC ARM MPS.
+ -specifically supports MAC ARM MPS.
