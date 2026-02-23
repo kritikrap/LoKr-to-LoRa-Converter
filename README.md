@@ -23,3 +23,4 @@ Now it will work perfectly.
 Note: The "rank" (compression ratio) is calculated automatically during this process. The file size may be slightly larger, which is normal. The important thing is that Draw Things can now recognize it as "true LoRA".
 
 Requirements: torch and safeensors
+The GPU version specifically supports MAC ARM MPS.
