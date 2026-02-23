@@ -13,6 +13,8 @@ Type python3 (leave a space).
 Drag the lokr_convert.py file to the terminal.
 Leave a space.
 Drag that problematic LoKr file (it should have a .safetensors extension) that you downloaded from Civitai to the terminal.
+Leave a space.
+Write Rank (The ideal rank for a standard FLUX LoRA is 32, 64, or 128)
 Press Enter.
 What will happen?
 The script will run, solve the complex "Kronecker" mathematical blocks inside the file, and convert them into standard "Up/Down" LoRA blocks. When the process is finished, a new file named _fixed_lora.safetensors will be created next to the original file.
@@ -21,7 +23,7 @@ Delete that 4KB corrupted file in the Draw Things folder.
 Upload the new _fixed_lora.safetensors file created by the script to Draw Things.
 Now it will work perfectly.
 Note: The "rank" (compression ratio) is calculated automatically during this process. The file size may be slightly larger, which is normal. The important thing is that Draw Things can now recognize it as "true LoRA".
-
+The file was saved to your Main User Folder (Home).
 Requirements: torch and safeensors .
 
 The GPU version (lokr_convert_GPU.py) specifically supports MAC ARM MPS.
