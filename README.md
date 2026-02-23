@@ -21,3 +21,5 @@ Delete that 4KB corrupted file in the Draw Things folder.
 Upload the new _fixed_lora.safetensors file created by the script to Draw Things.
 Now it will work perfectly.
 Note: The "rank" (compression ratio) is calculated automatically during this process. The file size may be slightly larger, which is normal. The important thing is that Draw Things can now recognize it as "true LoRA".
+
+Requirements: torch and safeensors
