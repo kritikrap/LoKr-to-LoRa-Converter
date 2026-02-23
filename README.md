@@ -14,7 +14,7 @@ Drag the lokr_convert.py file to the terminal.
 Leave a space.
 Drag that problematic LoKr file (it should have a .safetensors extension) that you downloaded from Civitai to the terminal.
 Leave a space.
-Write Rank (The ideal rank for a standard FLUX LoRA is 32, 64, or 128)
+Write Rank (IMPORTANT: The ideal rank for a standard FLUX LoRA is 32, 64, or 128. But If LoKr has Unlimited Rank, you can try 256 or 512 ranks depending on how well your system can handle it.) 
 Press Enter.
 What will happen?
 The script will run, solve the complex "Kronecker" mathematical blocks inside the file, and convert them into standard "Up/Down" LoRA blocks. When the process is finished, a new file named _fixed_lora.safetensors will be created next to the original file.
